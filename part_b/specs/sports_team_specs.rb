@@ -45,7 +45,6 @@ end
 
 def test_team_points
   example_team = SportsTeam.new('Ireland', ['Chris'], 'Jessica Adams', 1)
-  example_team.team_points('win')
   assert_equal(2, example_team.team_points('win'))
 end
 
